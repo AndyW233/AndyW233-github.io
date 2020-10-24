@@ -9,9 +9,9 @@ body {
 }
 
 #header {
-    background-color: #1abc9c;
-    height: 150px;
-    line-height: 150px;
+    background-color: #e39136;
+    height: 50px;
+    line-height: 50px;
 }
 
 #header a {
@@ -51,8 +51,9 @@ body {
 }
 
 #footer {
-    background-color: #2f2f2f;
-    padding: 50px 0;
+    background-color: #559dc4;
+    padding: 20px 0;
+
 }
 
 #footer h4 {
@@ -63,6 +64,12 @@ body {
 
 #footer p {
     color: white;
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+
+    letter-spacing: 0.1em;
 }
 
 .column {
