@@ -8,6 +8,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 1.5;
+}
+
+li {
+    display: inline;
+    line-height: 1.5;
+}
+
 #header {
     background-color: #e39136;
     height: 50px;
@@ -93,43 +102,23 @@ a:hover {
     padding: 60px 0;
 }
 
-.about {
-    text-align: center;
-}
 
-.post-author img, .about-author img {
+.post-author img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
     vertical-align: middle;
 }
 
-.about-author img {
-    width: 100px;
-    height: 100px;
-}
-
 .post-author span {
     margin-left: 16px;
-}
-
-.post-date {
-    color: #D2D2D2;
-
-    font-size: 14px;
-    font-weight: bold;
-
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
 }
 
 h1, h2, h3, h4 {
     color:#333;
 }
 
-p {
-    line-height: 1.5;
-}
+
 
 .post-container:nth-child(even) {
     background-color: #f2f2f2;
